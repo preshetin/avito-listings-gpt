@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Log App Div",
+  "version": "1.0",
+  "description": "Logs the div with id='app' from the current page.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Log App Div"
+  }
+}
