@@ -66,5 +66,6 @@ async function run() {
   console.log(result);
 }
 
-run()
+// run()
 
+module.exports = run
