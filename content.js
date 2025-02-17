@@ -44,6 +44,7 @@ function execute() {
 
     function analyseListing(listingUrl) {
       const apiUrl = `https://wb-tg-bot.preshetin.com/api/v1/avito-listing?url=${encodeURIComponent(listingUrl)}`;
+      // const apiUrl = `http://127.0.0.1:8000/api/v1/avito-listing?url=${encodeURIComponent(listingUrl)}`;
       return fetch(apiUrl)
         .then(response => response.json())
         .catch(error => {

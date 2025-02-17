@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Log App Div",
+  "name": "Avito Listings Analyzer",
   "version": "1.0",
-  "description": "Logs the div with id='app' from the current page.",
+  "description": "Analyzes real estate listings on Avito to see if they are fit for male living.",
   "permissions": [
     "activeTab",
     "scripting"
@@ -11,6 +11,16 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Log App Div"
+    "default_title": "Log App Div",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
 }
